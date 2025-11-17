@@ -3,10 +3,12 @@ import Hero from "./components/Hero";
 import StorySection from "./components/StorySection";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import ScrollProgress from "./components/ScrollProgress";
 
 function App() {
   return (
     <div className="bg-slate-950 text-white selection:bg-red-600/30 selection:text-white">
+      <ScrollProgress />
       <Navbar />
       <main className="relative">
         <Hero />
